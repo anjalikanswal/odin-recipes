@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(254, 250, 224);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: rgb(107, 66, 33);
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 20px, 10px;
+    text-transform: uppercase;
+    background-color: rgb(217, 191, 119);
+    padding: 10px, 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(107, 66, 33);
+    letter-spacing: 1px;
+    margin: 20px, 10px;
+    background-color: rgba(217, 191, 119,0.5);
+    padding: 10px, 20px;
+}
+
+.intro{
+    color: rgb(74, 39, 21);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.intro.recipe{
+    text-align: left;
+}
+
+.recipetab {
+    background-color: rgba(255, 252, 242, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: square;
+    color: rgb(107, 66, 33);
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: left;
+}
+
+ol li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: lower-roman;
+    color: rgb(107, 66, 33);
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(164, 106, 62);
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
